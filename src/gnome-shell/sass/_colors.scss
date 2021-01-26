@@ -32,17 +32,14 @@ $insensitive_secondary_selected_fg_color: scale-alpha($secondary_selected_fg_col
 $insensitive_tertiary_selected_fg_color: scale-alpha($tertiary_selected_fg_color, $disabled_opacity);
 
 // Background colors
-$base_color: if($variant =='light', #ffffff, #1b2224);
+$base_color: if($variant =='light', #ffffff, #222222);
 @if $color=='aliz' { $base_color: if($variant =='light', #ffffff, #222222); }
 @if $color=='azul' { $base_color: if($variant =='light', #ffffff, #1b1d24); }
 $secondary_base_color: scale-alpha($fg_color, 0.05);
 $bg_color: scale-alpha(#000000, $middle_opacity);
 $osd_bg_color: scale-alpha(#000000, $lower_opacity);
 $overview_bg_color: scale-alpha(#ffffff, 0.10);
-$topbar_color: #1b2224;
-@if $color=='sea' { $topbar_color: #1b2224; }
-@if $color=='aliz' { $topbar_color: #222222; }
-@if $color=='azul' { $topbar_color: #1b1d24; }
+$topbar_color: #222222;
 $topbar_fg_color: rgba(#ffffff, 0.8);
 $topbar_secondary_fg_color: #F0F0F0;
 $topbar_overview_color: rgba(#ffffff, 0.1);
