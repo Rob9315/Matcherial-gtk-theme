@@ -1,7 +1,7 @@
 Matcherial Gtk Theme
 ======
 
-# based on Matcha Gtk Theme, removes the tint
+# based on Matcha Gtk Theme, removes the tint and is made to look similar to the vscode material theme
 
 Matcha is a flat Design theme for GTK 3, GTK 2 and Gnome-Shell which supports GTK 3 and GTK 2 based desktop environments like Gnome, Unity, Budgie, Pantheon, XFCE, Mate, etc.
 
