@@ -13,7 +13,7 @@ fi
 REO_DIR=$(cd $(dirname $0) && pwd)
 SRC_DIR=${REO_DIR}/src
 
-THEME_NAME=Matcha
+THEME_NAME=Matcherial
 COLOR_VARIANTS=('' '-light' '-dark')
 THEME_VARIANTS=('-aliz' '-azul' '-sea')
 
