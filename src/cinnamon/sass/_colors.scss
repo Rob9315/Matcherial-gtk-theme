@@ -57,7 +57,7 @@ $header_border: if($variant == 'light', darken($header_bg, 7%), darken($header_b
 $header_fg: if($variant =='light', mix($selected_bg_color, #bdbdbd, 5%), $text_color);
 
 $dark_sidebar_bg: #1a1a1a;
-$dark_sidebar_bg: if($transparency == 'true', transparentize(#1a1a1a, 0.05), #1a1a1a); }
+$dark_sidebar_bg: if($transparency == 'true', transparentize(#1a1a1a, 0.05), #1a1a1a);
 $dark_sidebar_fg: if($variant =='light', mix($selected_bg_color, #bdbdbd, 5%), $text_color);
 $dark_sidebar_border: if($variant == 'light', $dark_sidebar_bg, darken($dark_sidebar_bg, 5%));
 
